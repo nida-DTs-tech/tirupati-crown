@@ -8,7 +8,7 @@
     <meta name="robots" content="INDEX,FOLLOW" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <!-- Title -->
-    <title>EliteStay - Hotel Booking Multi-Purpose HTML Template</title>
+    <title>Tirupati Crown - Hotel Booking Multi-Purpose HTML Template</title>
     <!-- Favicon -->
     <link rel="icon" href="assets/images/logo/favicon.png" type="image/png">
     <!-- Bootstrap -->
@@ -24,53 +24,6 @@
   </head>
   <body class="bg-neutral-400 @@bodyClass">
 
-
-
-    <!--==================== Preloader Start ====================-->
-    <div class="loading-screen" id="loading-screen">
-        <span class="bar top-bar"></span>
-        <span class="bar down-bar"></span>
-        <div class="animation-preloader">
-            <div class="position-relative z-1">
-                <div class="loader-border"></div>
-                <div class="loader-logo position-absolute top-50 start-50 translate-middle tw-z-999">
-                    <img class="position-relative tw-z-999" src="assets/images/logo/favicon.png" alt="brand">
-                </div>
-            </div>
-            <div class="txt-loading tw-mt-10">
-                <span data-text-preloader="E" class="letters-loading">
-                    E
-                </span>
-                <span data-text-preloader="l" class="letters-loading">
-                    l
-                </span>
-                <span data-text-preloader="i" class="letters-loading">
-                    i
-                </span>
-                <span data-text-preloader="t" class="letters-loading">
-                    t
-                </span>
-                <span data-text-preloader="e" class="letters-loading">
-                    e
-                </span>
-				<span data-text-preloader="S" class="letters-loading">
-                    S
-                </span>
-				<span data-text-preloader="t" class="letters-loading">
-                    t
-                </span>
-				<span data-text-preloader="a" class="letters-loading">
-                    a
-                </span>
-				<span data-text-preloader="y" class="letters-loading">
-                    y
-                </span>
-            </div>
-        </div>
-    </div>
-    <!--==================== Preloader End ====================-->
-
-
     <!-- Search Popup Start -->
     <div class="search_popup">
         <div class="container">
@@ -79,8 +32,8 @@
                     <div class="search_wrapper">
                         <div class="search_top d-flex justify-content-between align-items-center">
                             <div class="search_logo">
-                                <a href="index.html">
-                                    <img src="assets/images/logo/logo.png" alt="Logo">
+                                <a href="index.php">
+                                    <img src="assets/images/logo/tirupati-crown-white-logo.svg" alt="Logo">
                                 </a>
                             </div>
                             <div class="search_close">
@@ -181,16 +134,16 @@
 
     <div class="mobile-menu__inner">
         <a href="index.html" class="mobile-menu__logo">
-            <img src="assets/images/logo/logo.png" alt="Logo">
+            <img src="assets/images/logo/tirupati-crown-white-logo.svg" alt="Logo">
         </a>
         <div class="mobile-menu__menu">
             <!-- Nav menu Start -->
-<ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
-    <li class="nav-menu__item has-submenu activePage">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>
+    <ul class="nav-menu d-lg-flex align-items-center nav-menu--mobile d-block tw-mt-8">
+        <li class="nav-menu__item activePage">
+            <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>
 
         <!-- mega menu start -->
-<div class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-duration-200 tw-z-99">
+    <div class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-duration-200 tw-z-99">
     <div class="row g-4 row-cols-1 row-cols-lg-3 row-cols-xl-4">
         <div class="col">
             <div class="mega-menu-item group-item">
@@ -268,7 +221,7 @@
 </div>
 <!-- mega menu end -->  
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
+    <li class="nav-menu__item position-relative">
         <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Pages</a>
         <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
             <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
@@ -300,7 +253,7 @@
             </li>
         </ul>
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
+    <li class="nav-menu__item position-relative">
         <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Room</a>
         <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
             <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
@@ -311,7 +264,7 @@
             </li>
         </ul>
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
+    <li class="nav-menu__item position-relative">
         <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Destination</a>
         <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
             <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
@@ -324,7 +277,7 @@
             </li>
         </ul>
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
+    <li class="nav-menu__item position-relative">
         <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
         <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
             <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
@@ -356,7 +309,7 @@
             <!-- Logo Start -->
             <div class="logo">
                 <a href="index.html" class="link">
-                    <img src="assets/images/logo/logo.png" alt="Logo" class="max-w-200-px">
+                    <img src="assets/images/logo/tirupati-crown-white-logo.svg" alt="Logo" class="max-w-200-px w-200-px">
                 </a>
             </div>
             <!-- Logo End  -->
@@ -364,165 +317,27 @@
             <!-- Menu Start  -->
             <div class="header-menu d-lg-block d-none">
                 <!-- Nav menu Start -->
-<ul class="nav-menu d-lg-flex align-items-center tw-gap-8">
-    <li class="nav-menu__item has-submenu activePage">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>
-
-        <!-- mega menu start -->
-<div class="mega-menu tw-p-6 tw-rounded-lg scroll-sm nav-submenu position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md tw-duration-200 tw-z-99">
-    <div class="row g-4 row-cols-1 row-cols-lg-3 row-cols-xl-4">
-        <div class="col">
-            <div class="mega-menu-item group-item">
-                <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                    <a href="index.html" class="d-block">
-                        <img src="assets/images/thumbs/home-img1.png" alt="Home Page Image" class="tw-h-320-px w-100 object-fit-cover object-top">
-                    </a>
-                    <div class="d-lg-flex d-none">
-                        <div class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"></div>
-                        <div class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-                            <a class="tw-btn-hover-white bg-main-600 tw-py-4 tw-px-8 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="index.html">Live Preview <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tw-mt-4 text-center">
-                    <a href="index.html" class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home One</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="mega-menu-item group-item">
-                <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                    <a href="index-2.html" class="d-block">
-                        <img src="assets/images/thumbs/home-img2.png" alt="Home Page Image" class="tw-h-320-px w-100 object-fit-cover object-top">
-                    </a>
-                    <div class="d-lg-flex d-none">
-                        <div class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"></div>
-                        <div class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-                            <a class="tw-btn-hover-white bg-main-600 tw-py-4 tw-px-8 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="index-2.html">Live Preview <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tw-mt-4 text-center">
-                    <a href="index-2.html" class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home Two</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="mega-menu-item group-item">
-                <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                    <a href="index-3.html" class="d-block">
-                        <img src="assets/images/thumbs/home-img3.png" alt="Home Page Image" class="tw-h-320-px w-100 object-fit-cover object-top">
-                    </a>
-                    <div class="d-lg-flex d-none">
-                        <div class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"></div>
-                        <div class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-                            <a class="tw-btn-hover-white bg-main-600 tw-py-4 tw-px-8 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="index-3.html">Live Preview <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tw-mt-4 text-center">
-                    <a href="index-3.html" class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home Three</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="mega-menu-item group-item">
-                <div class="position-relative border border-neutral-200 tw-rounded-lg overflow-hidden">
-                    <a href="index-4.html" class="d-block">
-                        <img src="assets/images/thumbs/home-img4.png" alt="Home Page Image" class="tw-h-320-px w-100 object-fit-cover object-top">
-                    </a>
-                    <div class="d-lg-flex d-none">
-                        <div class="mega-menu-item__overlay position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1 tw-scale-08 group-hover-item-scale-1 tw-rounded-lg pointer-event-none"></div>
-                        <div class="mega-menu-item__buttons position-absolute top-0 tw-start-0 w-100 h-100 d-flex justify-content-center align-items-center flex-column tw-gap-4 tw-invisible opacity-0 group-hover-item-visible group-hover-item-opacity-1">
-                            <a class="tw-btn-hover-white bg-main-600 tw-py-4 tw-px-8 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="index-4.html">Live Preview <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tw-mt-4 text-center">
-                    <a href="index-4.html" class="text-heading hover-text-main-600 fw-semibold tw-text-md text-capitalize line-clamp-1">Home Four</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- mega menu end -->  
+    <ul class="nav-menu d-lg-flex align-items-center tw-gap-8">
+    <li class="nav-menu__item activePage">
+        <a href="index.php" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Home</a>  
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Pages</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="about.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">About Us</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="service.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Service</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="service-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Service Details</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="animations.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Our Animations</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="offers.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Offers</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="gallery.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Gallery</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="pricing.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Pricing</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="testimonial.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Testimonial</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="appointment.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Book An Appointment</a>
-            </li>
-        </ul>
+    <li class="nav-menu__item position-relative">
+        <a href="#services" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Services</a>
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Room</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="room.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Room</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="room-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Room Details</a>
-            </li>
-        </ul>
+    <li class="nav-menu__item position-relative">
+        <a href="#gallery" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Gallery</a>
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Destination</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="destination.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Destination</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="destination-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Destination Details</a>
-            </li>
-        </ul>
+    <li class="nav-menu__item position-relative">
+        <a href="#facilities" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Facilities</a>
     </li>
-    <li class="nav-menu__item has-submenu position-relative">
-        <a href="javascript:void(0)" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Blog</a>
-        <ul class="nav-submenu scroll-sm position-absolute start-0 top-100 tw-w-max bg-white tw-rounded-md overflow-hidden tw-p-2 tw-duration-200 tw-z-99">
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Blog</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog-grid.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">Blog Grid</a>
-            </li>
-            <li class="nav-submenu__item d-block tw-rounded tw-duration-200 position-relative">
-                <a href="blog-details.html" class="nav-submenu__link hover-bg-neutral-200 text-heading font-heading fw-normal w-100 d-block tw-py-2 tw-px-305 tw-rounded">
-                    Blog Details</a>
-            </li>
-        </ul>
+    <li class="nav-menu__item position-relative">
+        <a href="#contact" class="nav-menu__link tw-pe-5 text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
     </li>
-    <li class="nav-menu__item">
+    <!-- <li class="nav-menu__item">
         <a href="contact.html" class="nav-menu__link text-white font-heading tw-py-11 fw-normal w-100">Contact</a>
-    </li>
-</ul>
-<!-- Nav menu End  -->
+    </li> -->
+    </ul>
+    <!-- Nav menu End  -->
             </div>
             <!-- Menu End  -->
 
@@ -555,184 +370,102 @@
 </header>
 <!-- ==================== Header End Here ==================== -->
 <div id="scrollSmoother-container">
-    <section class="banner-area background-img position-relative z-1" data-background-image="assets/images/thumbs/banner-bg.jpg">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-xl-8 col-lg-8">
-                <div class="position-relative z-2">
-                    <h6 class="banner-subtitle tw-text-xl text-uppercase text-white tw-mb-9">Find unique homes in vibrant places.</h6>
-                    <h1 class="banner-title tw-text-29 text-white fw-normal tw-mb-10 tw-char-animation">Trusted Hotels, Seamless Booking</h1>
-                    <div class="d-flex align-items-center flex-wrap row-gap-3 tw-gap-13">
-                        <div>
-                            <a class="tw-btn-hover-white bg-main-600 tw-py-5 tw-px-12 text-heading font-heading d-inline-flex align-items-center tw-gap-3 tw-rounded-lg" href="contact.html">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
-                        </div>
-                        <div class="">
-                            <div class="d-flex align-items-center tw-gap-2">
-                                <span class="tw-text-xl text-white font-heading">5.0</span>
-                                <ul class="d-flex tw-gap-1">
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                    <li class="text-white"><i class="ph-bold ph-star"></i></li>
-                                </ul>
-                            </div>
-                            <div>
-                                <p class="tw-text-xl text-white font-heading">From 2,000+ reviews</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-3">
-                <div class="banner-play-button d-flex justify-content-end">
-                    <a class="play-now-two play-button" href="https://www.youtube.com/watch?v=Fvae8nxzVz4" data-fancybox="gallery" data-caption="">
-                        <i class="ph-bold ph-play"></i>
-                        <span class="ripple"></span>
-                    </a>
-                </div>
-            </div>
+    <section class="banner-two-area background-img position-relative z-1" data-background-image="assets/images/thumbs/banner-two-bg.jpg">
+  <div class="container tw-container-1750-px">
+    <div class="row align-items-end justify-content-between">
+      <div class="col-xl-8 col-lg-6 col-md-12">
+        <div class="banner-two-content tw-mb-15">
+          <h6 class="banner-subtitle tw-text-xl text-uppercase text-white tw-mb-9">Find unique homes in vibrant places.</h6>
+          <h1 class="banner-title banner-two-title tw-text-25 text-white fw-normal tw-mb-10 tw-char-animation">Hotel Tirupati Crown: The Best 3-Star Hotel in Chandrapur</h1>
         </div>
-    </div>
-</section>
-    <div class="checkout-area position-relative z-3 tw_fade_anim" data-delay=".3">
-     <div class="container">
-          <div class="checkout-bg bg-white tw-pt-11 tw-px-14 tw-pb-11 tw-rounded-md">
-               <div class="row">
-                    <div class="col-xl-12">
-                         <div class="checkout-main-wrapper">
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon1.svg" alt="icon"></span> select date</label>
-                                   <div class="nice-select"><span class="current">Check In</span>
-                                       <ul class="list">
-                                           <li class="option">Check In</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon1.svg" alt="icon"></span> select date</label>
-                                   <div class="nice-select"><span class="current">Check Out</span>
-                                       <ul class="list">
-                                           <li class="option">Check Out</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon3.svg" alt="icon"></span> Select room</label>
-                                   <div class="nice-select"><span class="current">Rooms</span>
-                                       <ul class="list">
-                                           <li class="option">Rooms</li>
-                                           <li class="option">01</li>
-                                           <li class="option">02</li>
-                                           <li class="option">03</li>
-                                           <li class="option">04</li>
-                                           <li class="option">05</li>
-                                           <li class="option">06</li>
-                                           <li class="option">07</li>
-                                           <li class="option">08</li>
-                                           <li class="option">09</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper d-flex flex-column">
-                                   <label class="tw-text-sm fw-normal font-body d-flex align-content-center tw-gap-4 tw-mb-2"><span><img src="assets/images/icons/checkout-icon4.svg" alt="icon"></span> 1 room, 1 adult, 0 child</label>
-                                   <div class="nice-select"><span class="current">guests</span>
-                                       <ul class="list">
-                                           <li class="option">guests</li>
-                                           <li class="option">1</li>
-                                           <li class="option">2</li>
-                                           <li class="option">3</li>
-                                           <li class="option">4</li>
-                                           <li class="option">5</li>
-                                           <li class="option">6</li>
-                                       </ul>
-                                   </div>
-                              </div>
-                              <div class="checkout-wrapper">
-                                   <div class="checkout-button common-hover-yellow">
-                                        <button class="tw-btn-hover-black bg-main-600 tw-py-5 tw-px-7 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg">EXPLORE MORE <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></button>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-     </div>
-</div>
-    <div class="advance-area py-120 position-relative z-1">
-    <div class="container">
-            <div class="row justify-content-center">
-               <div class="col-xl-11"> 
-                    <div class="section-wrapper text-center tw-mb-14 tw_fade_anim">
-                         <h6 class="section-subtitle tw-text-xl fw-medium text-uppercase tw-mb-4 text-main-600">Crafting Memorable Experiences</h6>
-                         <h2 class="section-title fw-normal tw-mb-7 tw-char-animation">We're Dedicated To Providing You Unforgettable Experience. Whether You're Here For Business Or Leisure,</h2>
-                    </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-xl-12">
-                  <div class="advance-wrap tw_fade_anim">
-      
-                     <!-- item 1 -->
-                     <div class="advance-item">
-                        <div class="advance-thumb">
-                           <img src="assets/images/thumbs/advance-thumb1.jpg" alt="thumb">
-                        </div>
-                        <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
-                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Coxsbazar</a></h6>
-                           <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
-                        </div>
-                     </div>
-                     
-                     <!-- item 2 -->
-                     <div class="advance-item">
-                        <div class="advance-thumb">
-                           <img src="assets/images/thumbs/advance-thumb2.jpg" alt="thumb">
-                        </div>
-                        <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
-                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Bandarban</a></h6>
-                           <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
-                        </div>
-                     </div>
-      
-                     <!-- item 3 -->
-                     <div class="advance-item">
-                        <div class="advance-thumb">
-                           <img src="assets/images/thumbs/advance-thumb3.jpg" alt="thumb">
-                        </div>
-                        <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
-                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">sylhet</a></h6>
-                           <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
-                        </div>
-                     </div>
-      
-                     <!-- item 4 -->
-                     <div class="advance-item">
-                        <div class="advance-thumb">
-                           <img src="assets/images/thumbs/advance-thumb4.jpg" alt="thumb">
-                        </div>
-                        <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
-                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Cumilla</a></h6>
-                           <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
-                        </div>
-                     </div>
-      
-                     <!-- item 5 -->
-                     <div class="advance-item">
-                        <div class="advance-thumb">
-                           <img src="assets/images/thumbs/advance-thumb5.jpg" alt="thumb">
-                        </div>
-                        <div class="advance-content d-flex align-items-center justify-content-between flex-wrap tw-px-4 tw-py-4">
-                           <h6 class="tw-text-2xl fw-normal mb-0"><a href="service-details.html">Dhaka</a></h6>
-                           <a class="advance-btn tw-w-10 tw-h-10 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle text-heading hover-bg-main-600 hover-border-main-600 hover-text-heading" href="service-details.html"><span><i class="ph ph-arrow-right"></i></span></a>
-                        </div>
-                     </div>
-      
+      </div>
+      <div class="col-xl-4 col-lg-6 col-md-12">
+        <div class="banner-two-form tw-pt-19 tw-pb-15 tw-px-10 bg-main-600 tw-rounded-lg position-relative z-1 tw_fade_anim" data-delay=".3">
+          <form action="#">
+            <div class="row gy-4 gx-3">
+              <div class="col-xl-12">
+                <div>
+                  <h6 class="tw-text-7 fw-normal tw-mb-3">Book an appointment</h6>
+                </div>
+              </div>
+              <div class="col-xl-12">
+                <div class="position-relative z-1">
+                  <input type="text" class="banner-input cursor-big tw-px-5 tw-py-3 bg-white tw-rounded-lg border-0 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden shadow-none" placeholder="Name">
+                  <div class="position-absolute top-50 end-0 translate-middle-y tw-me-7">
+                    <span class="tw-text-xl">
+                      <i class="ph ph-user"></i>
+                    </span>
                   </div>
-               </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="position-relative z-1">
+                  <input type="text" class="banner-input cursor-big tw-px-5 tw-py-3 bg-white tw-rounded-lg border-0 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden shadow-none" placeholder="Check in">
+                  <div class="position-absolute top-50 end-0 translate-middle-y tw-me-7">
+                    <span class="tw-text-xl">
+                      <i class="ph ph-calendar"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="position-relative z-1">
+                  <input type="text" class="banner-input cursor-big tw-px-5 tw-py-3 bg-white tw-rounded-lg border-0 focus-outline-0 w-100 tw-placeholder-transition-2 focus-tw-placeholder-text-hidden shadow-none" placeholder="Check Out">
+                  <div class="position-absolute top-50 end-0 translate-middle-y tw-me-7">
+                    <span class="tw-text-xl">
+                      <i class="ph ph-clock"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="position-relative z-1">
+                  <div class="tp-shop-quantity tw-rounded-lg d-flex align-items-center">
+                    <span class="text-body">Adult</span>
+                    <div class="tp-quantity position-relative">
+                      <div class="qty_button cart-minus tp-cart-minus">
+                        <i class="ph ph-minus"></i>
+                      </div>
+                      <input class="border-0 focus-outline-0 focus-tw-placeholder-text-hidden bg-transparent" type="text" value="1">
+                      <div class="qty_button cart-plus tp-cart-plus">
+                        <i class="ph ph-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="position-relative z-1">
+                  <div class="tp-shop-quantity tw-rounded-lg d-flex align-items-center">
+                    <span class="text-body">Child</span>
+                    <div class="tp-quantity position-relative">
+                      <div class="qty_button cart-minus tp-cart-minus">
+                        <i class="ph ph-minus"></i>
+                      </div>
+                      <input class="border-0 focus-outline-0 focus-tw-placeholder-text-hidden bg-transparent" type="text" value="1">
+                      <div class="qty_button cart-plus tp-cart-plus">
+                        <i class="ph ph-plus"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12">
+                <div class="tw-mt-6">
+                  <button class="tw-btn-hover-black bg-main-600 w-100 justify-content-center tw-py-5 tw-px-7 text-uppercase text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg">EXPLORE MORE <span class="d-inline-block lh-1 tw-text-lg">
+                      <i class="ph ph-arrow-right"></i>
+                    </span>
+                  </button>
+                </div>
+              </div>
             </div>
+            <div class="banner-two-form-overlay bg-neutral-100"></div>
+          </form>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+</section>
     <section class="offer-area pb-120">
     <div class="container">
         <div class="row">
@@ -855,6 +588,325 @@
         </div>
     </div>
 </section>
+
+<!-- Facilities start -->
+<section class="experience-four-area bg-main-600 pb-120 position-relative z-1">
+  <div class="container tw-container-1650-px">
+    <div class="row justify-content-center">
+      <div class="col-xl-7 col-lg-10">
+        <div class="section-two-wrapper text-center tw-mb-14 tw_fade_anim">
+          <h6 class="section-two-subtitle tw-text-xl text-uppercase text-neutral-800 tw-mb-6">Rest, Relax, Recharge</h6>
+          <h2 class="section-two-title tw-text-16 fw-normal tw-char-animation">Experience Luxury And Comfort With In Every Corners</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="swiper experience-four-active tw-pb-20 overflow-hidden position-relative z-1 tw_fade_anim">
+          <div class="swiper-wrapper d-flex">
+            <!-- item 1 -->
+            <div class="swiper-slide">
+              <div class="experience-four-wrapper">
+                <div class="experience-four-thumb position-relative">
+                  <img class="tw-rounded-lg" src="assets/images/thumbs/experience-four-thumb1.jpg" alt="Image">
+                  <div class="position-absolute top-0 start-0 tw-mt-2 tw-ms-3">
+                    <span class="bg-white text-heading tw-rounded-3xl tw-py-1 te-text-sm text-capitalize fw-medium tw-px-4">rooftop dinner</span>
+                  </div>
+                  <div class="experience-four-content d-flex justify-content-between align-items-end tw-rounded-lg bg-white tw-py-6 tw-px-7 tw-mx-3 flex-wrap row-gap-2">
+                    <div class="experience-content-inner">
+                      <h4 class="tw-text-2xl fw-normal tw-mb-2">
+                        <a href="destination-details.html">Sizzling The View</a>
+                      </h4>
+                      <p class="d-inline-flex align-items-center tw-gap-2">
+                        <span class="d-inline-block lh-1 tw-text-2xl">
+                          <i class="ph ph-clock"></i>
+                        </span> 6 PM – 11 PM
+                      </p>
+                    </div>
+                    <div>
+                      <a class="text-heading d-inline-flex align-items-center tw-gap-4" href="destination-details.html">Booking today <span class="tw-text-xl d-inline-block lh-1">
+                          <i class="ph ph-arrow-up-right"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- item 1 -->
+            <div class="swiper-slide">
+              <div class="experience-four-wrapper">
+                <div class="experience-four-thumb position-relative">
+                  <img class="tw-rounded-lg" src="assets/images/thumbs/experience-four-thumb2.jpg" alt="Image">
+                  <div class="position-absolute top-0 start-0 tw-mt-2 tw-ms-3">
+                    <span class="bg-white text-heading tw-rounded-3xl tw-py-1 te-text-sm text-capitalize fw-medium tw-px-4">rooftop dinner</span>
+                  </div>
+                  <div class="experience-four-content d-flex justify-content-between align-items-end tw-rounded-lg bg-white tw-py-6 tw-px-7 tw-mx-3 flex-wrap row-gap-2">
+                    <div class="experience-content-inner">
+                      <h4 class="tw-text-2xl fw-normal tw-mb-2">
+                        <a href="destination-details.html">Sizzling The View</a>
+                      </h4>
+                      <p class="d-inline-flex align-items-center tw-gap-2">
+                        <span class="d-inline-block lh-1 tw-text-2xl">
+                          <i class="ph ph-clock"></i>
+                        </span> 6 PM – 11 PM
+                      </p>
+                    </div>
+                    <div>
+                      <a class="text-heading d-inline-flex align-items-center tw-gap-4" href="destination-details.html">Booking today <span class="tw-text-xl d-inline-block lh-1">
+                          <i class="ph ph-arrow-up-right"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- item 1 -->
+            <div class="swiper-slide">
+              <div class="experience-four-wrapper">
+                <div class="experience-four-thumb position-relative">
+                  <img class="tw-rounded-lg" src="assets/images/thumbs/experience-four-thumb3.jpg" alt="Image">
+                  <div class="position-absolute top-0 start-0 tw-mt-2 tw-ms-3">
+                    <span class="bg-white text-heading tw-rounded-3xl tw-py-1 te-text-sm text-capitalize fw-medium tw-px-4">rooftop dinner</span>
+                  </div>
+                  <div class="experience-four-content d-flex justify-content-between align-items-end tw-rounded-lg bg-white tw-py-6 tw-px-7 tw-mx-3 flex-wrap row-gap-2">
+                    <div class="experience-content-inner">
+                      <h4 class="tw-text-2xl fw-normal tw-mb-2">
+                        <a href="destination-details.html">Sizzling The View</a>
+                      </h4>
+                      <p class="d-inline-flex align-items-center tw-gap-2">
+                        <span class="d-inline-block lh-1 tw-text-2xl">
+                          <i class="ph ph-clock"></i>
+                        </span> 6 PM – 11 PM
+                      </p>
+                    </div>
+                    <div>
+                      <a class="text-heading d-inline-flex align-items-center tw-gap-4" href="destination-details.html">Booking today <span class="tw-text-xl d-inline-block lh-1">
+                          <i class="ph ph-arrow-up-right"></i>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- facilities end -->
+
+<section class="pb-120">
+     <div class="container">
+          <div class="row justify-content-between align-items-center">
+               <div class="col-xl-8 col-lg-8">
+                    <div class="section-two-wrapper tw-mb-14 tw_fade_anim" data-delay=".3">
+                         <h6 class="section-two-subtitle tw-text-xl text-uppercase text-neutral-800 tw-mb-6">Discover Beauty Through Our Lens</h6>
+                         <h2 class="section-two-title tw-text-16 fw-normal tw-char-animation">Moments Captured By Team Explore Our Gallery Seen</h2>
+                    </div>
+               </div>
+               <div class="col-xl-3 col-lg-4">
+                    <div class="gallery-two-btn d-flex justify-content-end tw_fade_anim" data-delay=".5">
+                         <a class="tw-btn-hover-black bg-main-600 tw-py-5 tw-px-12 text-capitalize text-heading font-heading d-inline-flex align-items-center tw-gap-2 tw-rounded-lg" href="gallery.html">Booking today <span class="d-inline-block lh-1 tw-text-lg"><i class="ph ph-arrow-up-right"></i></span></a>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <div class="container-fluid gx-5">
+          <div class="row align-items-center">
+               <div class="gallery-two-slider tw_fade_anim" data-delay=".5">
+                     <div class="gallery-two-active swiper-container">
+                         <div class="swiper-wrapper d-flex align-items-center">
+
+                              <!-- slide 1 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb1.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 2 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb2.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 3 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb3.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 4 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb4.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 5 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb1.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 6 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb2.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 1 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb3.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 2 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb4.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 3 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb1.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 4 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                        <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb2.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 5 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                         <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb3.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                              <!-- slide 6 -->
+                              <div class="gallery-two-wrapper swiper-slide">
+                                   <div class="gallery-two-thumb position-relative z-1">
+                                         <a href="gallery.html"><img class="tw-rounded-xl" src="assets/images/thumbs/gallery-two-thumb4.jpg" alt="thumb"></a>
+                                        <div class="gallery-two-content d-flex justify-content-between flex-wrap row-gap-3 align-items-center bg-white tw-rounded-2xl tw-py-8 tw-px-10 position-absolute bottom-0 start-0 tw-mb-7 tw-mx-7">
+                                             <div class="gallery-two-content-inner">
+                                                  <h4 class="tw-text-2xl fw-normal mb-0"><a href="gallery.html"> Guaranteed Quality <br> Service</a></h4>
+                                             </div>
+                                             <div>
+                                                  <a class="tw-w-120 tw-h-120 lh-1 d-inline-flex align-items-center justify-content-center rounded-circle bg-main-600 text-heading hover-bg-neutral-100 hover-text-heading" href="gallery.html"><i class="ph ph-arrow-up-right"></i></a>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+
+                         </div>
+                     </div>
+               </div>
+          </div>
+     </div>
+    </section>
     <section class="package-area py-120">
     <div class="container-fluid">
         <div class="row justify-content-center">
@@ -869,11 +921,7 @@
             <div class="col-xl-12">
                 <div class="package-wrapper d-flex justify-content-center tw-gap-4 tw-mb-17">
                     <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1 tw_fade_anim" data-delay=".3">
-                        <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb1.jpg" alt="thumb"></a>
-                        <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                            <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                            <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
-                        </div>
+                        <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/gallery/ele-img.webp" alt="thumb"></a>
                         <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
                             <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Premier Oceanview Villa <br> Fxcv</a></h4>
                             <div class="package-list">
@@ -889,10 +937,6 @@
                         <div class="package-wrap d-flex tw-gap-4">
                             <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1">
                                 <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb2.jpg" alt="thumb"></a>
-                                <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                                    <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
-                                </div>
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
                                     <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Luxury Seaside Villa</a></h4>
                                     <div class="package-list">
@@ -906,10 +950,7 @@
                             </div>
                             <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1">
                                 <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb3.jpg" alt="thumb"></a>
-                                <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                                    <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
-                                </div>
+                                
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
                                     <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Elite Oceanfront Retreat</a></h4>
                                     <div class="package-list">
@@ -925,10 +966,7 @@
                         <div class="package-wrap d-flex tw-gap-5">
                             <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1">
                                 <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb4.jpg" alt="thumb"></a>
-                                <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
-                                    <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
-                                    <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
-                                </div>
+                                
                                 <div class="package-content position-absolute start-0 bottom-0 tw-mx-10 tw-mb-14">
                                     <h4 class="package-title tw-text-8 fw-normal text-white tw-mb-8"><a href="destination-details.html">Signature Coastal Villa</a></h4>
                                     <div class="package-list">
@@ -942,7 +980,7 @@
                             </div>
                             <div class="package-thumb tw-mb-4 tw-rounded-xl overflow-hidden position-relative z-1">
                                 <a href="destination-details.html"><img class="tw-rounded-xl w-100 h-100 object-fit-cover" src="assets/images/thumbs/package-thumb5.jpg" alt="thumb"></a>
-                                <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
+                                <!-- <div class="package-price bg-main-600 tw-p-6 position-absolute start-0 top-0">
                                     <span class="tw-text-8 font-heading fw-normal text-heading">$99</span>
                                     <p class="font-heading tw-text-5 fw-normal text-capitalize text-heading">per night</p>
                                 </div>
@@ -955,7 +993,7 @@
                                             <li class="font-heading text-white fw-medium tw-text-xl text-capitalize"><span><img src="assets/images/icons/package-list-icon1.svg" alt="icon"></span> 400m2</li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -1078,7 +1116,7 @@
         </div>
     </div>
 </section>
-    <section class="cta-area py-120 background-img position-relative z-1 tw-mx-11 tw-rounded-3xl overflow-hidden" data-background-image="assets/images/thumbs/call-to-action-bg.jpg">
+    <section class="cta-area py-120 background-img position-relative z-1 tw-mx-11 tw-rounded-3xl overflow-hidden" data-background-image="assets/images/bg/cta-bg.webp">
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-xl-6">
@@ -1765,7 +1803,7 @@
                 <div class="footer-bottom-wrap d-flex align-items-center justify-content-between tw-gap-4 flex-wrap">
                   <div class="mb-0 aos-init tw_fade_anim" data-delay=".3">
                       <a href="index.html" class="">
-                          <img src="assets/images/logo/logo.png" alt="Logo">
+                          <img src="assets/images/logo/tirupati-crown-white-logo.svg" style="width:200px;"alt="Logo">
                       </a>
                   </div>
                   <ul class="footer-bottom-social d-flex align-items-center tw-gap-6 aos-init tw_fade_anim" data-delay=".5">

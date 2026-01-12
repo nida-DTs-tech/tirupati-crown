@@ -4516,6 +4516,9 @@ input:focus, input:focus-visible {
 .max-w-200-px {
     max-width: 200px;
 }
+.w-200-px{
+    width: 200px;
+}
 
 .max-w-630-px {
     max-width: 630px;
@@ -10144,7 +10147,8 @@ input:focus, input:focus-visible {
 }
 
 .banner-two-area {
-    padding-block: 230px 200px;
+    /* height: 100vh; */
+    padding-block: 120px 200px;
 }
 
 .banner-two-area::before {
@@ -10176,13 +10180,17 @@ input:focus, input:focus-visible {
 
 @media screen and (max-width: 1699px) {
     .banner-two-title {
-        font-size: 90px;
+        font-size: 70px;
+        padding-right: 50px;
+        line-height: 85px;
     }
 }
 
 @media screen and (max-width: 1399px) {
     .banner-two-title {
-        font-size: 80px;
+        font-size: 60px;
+        padding-right: 50px;
+        line-height: 75px;
     }
 }
 
@@ -10213,7 +10221,7 @@ input:focus, input:focus-visible {
 
 @media screen and (max-width: 1199px) {
     .banner-two-form {
-        margin-inline-start: 32px;
+        margin-inline-start: 0px;
     }
 }
 
